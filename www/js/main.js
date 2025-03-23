@@ -2403,10 +2403,10 @@ async function runEmbedScraper(embed, media) {
     extras.push({ name: '--tls-verify', value: 'no', dataType: 'String' });
     extras.push({ name: 'track-names', value: trackName, dataType: 'String' });
     extras.push({ name: '--vo', value: 'gpu', dataType: 'String' });
-    extras.push({ name: '--gpu-context', value: 'android', dataType: 'String' });
-    extras.push({ name: '--hwdec', value: 'mediacodec-copy', dataType: 'String' });
-    extras.push({ name: '--cache', value: 'yes', dataType: 'String' });
-    extras.push({ name: '--stream-buffer-size', value: '1MiB', dataType: 'String' });
+    //extras.push({ name: '--gpu-context', value: 'android', dataType: 'String' });
+    //extras.push({ name: '--hwdec', value: 'mediacodec-copy', dataType: 'String' });
+    //extras.push({ name: '--cache', value: 'yes', dataType: 'String' });
+    //extras.push({ name: '--stream-buffer-size', value: '1MiB', dataType: 'String' });
     extras.push({ name: '--panscan', value: '1.0', dataType: 'String' });
     extras.push({ name: 'show_media_title', value: true, dataType: 'Boolean' });
 
